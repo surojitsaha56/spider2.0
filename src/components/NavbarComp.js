@@ -1,43 +1,27 @@
-import {Navbar,Nav,NavDropdown,Button,Form,FormControl,Container} from 'react-bootstrap'
 import React, { Component } from 'react'
 
 export default class NavbarComp extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-  <Navbar.Toggle aria-controls="navbarScroll" />
-  <Navbar.Collapse id="navbarScroll">
-    <Nav
-      className="mr-auto my-2 my-lg-0"
-      style={{ maxHeight: '100px' }}
-      navbarScroll
-    >
-      <Nav.Link href="#action1">Home</Nav.Link>
-      <Nav.Link href="#action2">Link</Nav.Link>
-      <NavDropdown title="Link" id="navbarScrollingDropdown">
-        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-      </NavDropdown>
-      <Nav.Link href="#" disabled>
-        Link
-      </Nav.Link>
-    </Nav>
-    <Form className="d-flex">
-      <FormControl
-        type="search"
-        placeholder="Search"
-        className="mr-2"
-        aria-label="Search"
-      />
-      <Button variant="outline-success">Search</Button>
-    </Form>
-  </Navbar.Collapse>
-</Navbar>
-      </div>
-    )
-  }
+    render() {
+        return (
+            
+        <div className="App">
+    <nav>
+    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <div className="container">
+         <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Weather</a></li>
+            <li><a href="#">About</a></li>
+         </ul>
+         <ul id="slide-out" class="sidenav">
+        <li><a href="#item1">Item 1</a></li>
+        <li><a href="#item2">Item 2</a></li>
+        <li><a href="#item3">Item 3</a></li>
+        </ul>
+      </div>        
+    </nav>
+ </div>
+        )
+    }
 }
