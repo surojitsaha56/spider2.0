@@ -35,7 +35,7 @@ class WeatherBar extends React.Component {
                 </div>
                 <br />
                 <div className="row container">
-                    <div className="col s4 card">
+                    <div className="col s12 l4 m6 card hoverable">
                         <br />
                         <div className="card-image">
                             <img src={mumbai} alt="" />
@@ -46,7 +46,7 @@ class WeatherBar extends React.Component {
                         
                         <p id="M-date">32&deg;C</p>
                     </div>
-                    <div className="col s4 card">
+                    <div className="col s12 l4 m6 card hoverable">
                         <br/>
                         <div className="card-image">
                             <img src={london} alt="" />
@@ -57,7 +57,7 @@ class WeatherBar extends React.Component {
                         
                         <p id="L-date">22&deg;C</p>
                     </div>
-                    <div className="col s4 card">
+                    <div className="col s12 l4 m6 card hoverable">
                         <br />
                         <div className="card-image">
                             <img src={new_york} alt="" />
