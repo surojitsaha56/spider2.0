@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import mumbai from '../images/mumbai.jpg'
 import london from '../images/london.jpg'
 import new_york from '../images/new_york.jpg'
@@ -32,7 +31,7 @@ class WeatherBar extends React.Component {
                     <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(2)}>Wednesday</button>
                     <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(3)}>Thursday</button>
                     <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(4)}>Friday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(4)}>Tst</button>
+                  
                 </div>
                 <br />
                 <div className="row container">
