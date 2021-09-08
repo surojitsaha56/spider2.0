@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import mumbai from '../images/mumbai.jpg'
 import london from '../images/london.jpg'
