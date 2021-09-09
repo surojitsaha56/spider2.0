@@ -1,3 +1,5 @@
+import bg from '../images/bg-flight.png'
+
 import React from 'react'
 import M from  'materialize-css/dist/js/materialize.min.js';
 import './BookingForm.css';
@@ -13,8 +15,35 @@ class BookingForms extends React.Component {
       
         return (
             <div>
+        <section class="hero">
+
+        <section class="nav">
+        <div className="App navlink sideout">
+          <nav>
+          <a href="/" data-target="slide-out" class="sidenav-trigger show-on-large  sideout"><i class="material-icons">menu</i></a>
+            <div className="container">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="/signup">Signup</a></li>
+                  <li><a href="/booking">Booking</a></li>
+                  <li><a href="/weather">Weather</a></li>
+                  <li><a href="/about">About</a></li>
+              </ul>
+              <div class="sideout">
+              <ul id="slide-out" class="sidenav ">
+              <li class="s11"><a href="#item1">Item 1</a></li>
+              <li class="s11"><a href="#item2">Item 2</a></li>
+              <li class="s11"><a href="#item3">Item 3</a></li>
+              </ul>
+</div>
+            </div>        
+          </nav>
+      </div>
+      </section>
+      
+                    
                 <div className="container">
                 <center>
+                    
                   <div class="row">
                     
                     <div class="input-field col s14">
@@ -52,23 +81,24 @@ class BookingForms extends React.Component {
                         <label>Select Destination</label>
                         
                     </div>
+                    </div>
            
               <div class="row">
-          <div class="input-field col s6">
+          <div class="input-field col s13">
           <input  type="date" class="validate"/>
           </div>
-          <div class="input-field col s6">
+          
+          <div class="input-field col s13">
           <input  type="date" class="validate"/>
           
               </div>
         
-        
                </div>
-               <button type="button">Book</button>
+               <button type="button" class="btn1">Book</button>
 
-                </div>
               </center>
                 </div>
+                </section>
             </div>
 
         )
