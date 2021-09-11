@@ -28,7 +28,8 @@ class About extends React.Component {
                     <div class="col s12 l4 m6">
                         <div class="card c1">
                         <h5>What's new!</h5>
-                        <p class="whats-new">Addons are introduced for smooth experience.</p>
+                        <p class="whats-new">Addons are introduced for smooth experience. You can also check weather for
+                        next week</p>
                     </div>
                     </div>
                 </div>
