@@ -30,13 +30,13 @@ class WeatherBar extends React.Component {
                 <section class="hero1">
                     <h3>Weather for Next Week</h3>
                 <div className=" row container">
-                    <button className="waves-effect waves-light btn secondary btn-large " onClick={() => this.display(0)}>Monday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(1)}>Tuesday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(2)}>Wednesday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(3)}>Thursday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(4)}>Friday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(5)}>Saturday</button>
-                    <button className="waves-effect waves-light btn secondary btn-large" onClick={() => this.display(6)}>Sunday</button>
+                    <a className="btn btn-large" onClick={() => this.display(0)}>Monday</a>
+                    <a className=" btn btn-large" onClick={() => this.display(1)}>Tuesday</a>
+                    <a className="btn  btn-large" onClick={() => this.display(2)}>Wednesday</a>
+                    <a className=" btn  btn-large" onClick={() => this.display(3)}>Thursday</a>
+                    <a className=" btn  btn-large" onClick={() => this.display(4)}>Friday</a>
+                    <a className=" btn  btn-large" onClick={() => this.display(5)}>Saturday</a>
+                    <a className=" btn btn-large" onClick={() => this.display(6)}>Sunday</a>
                 </div>
                 <br />
                 <div className="row container">

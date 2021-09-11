@@ -13,7 +13,7 @@ class About extends React.Component {
                 <div class="row">
                     <div class="col s12 l4 m6">
                        <div class="card c1">
-                        <h5>Book flights directly with Spider Flight</h5>
+                        <h5>Book flights directly with Spider flight</h5>
                         <p>Make spider flight your travel companion. You can enjoy the lowest booking and cancellation
                         fees, exclusive flight offers and discounts if you directly book flight with us.</p>
                     </div>
@@ -28,7 +28,7 @@ class About extends React.Component {
                     <div class="col s12 l4 m6">
                         <div class="card c1">
                         <h5>What's new!</h5>
-                        <p class="whats-new">Addons are introduced for smooth experience. You can also check weather for
+                        <p class="whats-new"><br></br>Add ons are introduced for smooth experience. You can also check weather for
                         next week</p>
                     </div>
                     </div>

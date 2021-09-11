@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import './Footer.css';
+
 class Footer extends React.Component {
     render() { 
         return (
-            <footer class="page-footer yellow darken-4">
+            <footer class="page-footer  footer1">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">

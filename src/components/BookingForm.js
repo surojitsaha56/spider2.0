@@ -29,17 +29,17 @@ class BookingForms extends React.Component {
                 
             
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li><a href="/signup">Signup</a></li>
+                  <li><a href="/signup">Sign-up</a></li>
                   <li><a href="/booking">Booking</a></li>
                   <li><a href="/weather">Weather</a></li>
                   <li><a href="/about">About</a></li>
               </ul>
               <div class="sideout">
               <ul id="slide-out" class="sidenav ">
-              <li class="s11"><a href="#item1">Signup</a></li>
-              <li class="s11"><a href="#item2">Booking</a></li>
-              <li class="s11"><a href="#item3">Weather</a></li>
-              <li class="s11"><a href="#item3">About</a></li>
+              <li class="s11"><a href="#Signup">Sign-up</a></li>
+              <li class="s11"><a href="#Booking">Booking</a></li>
+              <li class="s11"><a href="#Weather">Weather</a></li>
+              <li class="s11"><a href="#About">About</a></li>
               </ul>
 </div>
             </div>        
@@ -67,6 +67,15 @@ class BookingForms extends React.Component {
                             <option value="9">Srinagar</option>
                             <option value="10">Gangtok</option>
                             <option value="11">Bangalore</option>
+                            <option value="12">Dublin</option>
+                            <option value="13">New York</option>
+                            <option value="14">New Jersey</option>
+                            <option value="15">Bangkok</option>
+                            <option value="16">Florida</option>
+                            <option value="17">Manchester</option>
+                            <option value="18">Berlin</option>
+                            <option value="19">Sydney</option>
+                            <option value="20">Madrid</option>
                         </select>
                         <label>Select Source</label>
                         
@@ -86,7 +95,17 @@ class BookingForms extends React.Component {
                             <option value="9">Srinagar</option>
                             <option value="10">Gangtok</option>
                             <option value="11">Bangalore</option>
+                            <option value="12">Dublin</option>
+                            <option value="13">New York</option>
+                            <option value="14">New Jersey</option>
+                            <option value="15">Bangkok</option>
+                            <option value="16">Florida</option>
+                            <option value="17">Manchester</option>
+                            <option value="18">Berlin</option>
+                            <option value="19">Sydney</option>
+                            <option value="20">Madrid</option>
                         </select>
+
                         <label>Select Destination</label>
                         
                     </div>

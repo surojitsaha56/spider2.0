@@ -7,6 +7,7 @@ nav{
     text-rendering: optimizeLegibility; 
     font-weight: bold;
     color: #fff;    
+    
 }
 
 img{
@@ -56,5 +57,10 @@ input,label{
     height: 40px;
 
 }
-
+.btn1-full:link,
+.btn1-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #ffff;
+}
 

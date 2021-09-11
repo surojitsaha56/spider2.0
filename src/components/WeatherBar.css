@@ -12,3 +12,14 @@ img{
 .btn:hover{
     background-color: orange;
 }
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #ffff;
+}
+.btn:hover,
+.btn:active{
+    background-color:orange;
+    
+}
