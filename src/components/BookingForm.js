@@ -1,15 +1,17 @@
-import bg from '../images/bg-flight.png'
-
 import React from 'react'
 import M from  'materialize-css/dist/js/materialize.min.js';
 import './BookingForm.css';
 
+  
+
 class BookingForms extends React.Component {
+
     componentDidMount() {
         // Auto initialize all the things!
         M.AutoInit();
+
     }
-    
+
     render() { 
       
       
@@ -22,6 +24,10 @@ class BookingForms extends React.Component {
           <nav>
           <a href="/" data-target="slide-out" class="sidenav-trigger show-on-large  sideout"><i class="material-icons">menu</i></a>
             <div className="container">
+            
+                <a href="/" className="brand-logo" >SpiderFlight</a>
+                
+            
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                   <li><a href="/signup">Signup</a></li>
                   <li><a href="/booking">Booking</a></li>
@@ -30,9 +36,10 @@ class BookingForms extends React.Component {
               </ul>
               <div class="sideout">
               <ul id="slide-out" class="sidenav ">
-              <li class="s11"><a href="#item1">Item 1</a></li>
-              <li class="s11"><a href="#item2">Item 2</a></li>
-              <li class="s11"><a href="#item3">Item 3</a></li>
+              <li class="s11"><a href="#item1">Signup</a></li>
+              <li class="s11"><a href="#item2">Booking</a></li>
+              <li class="s11"><a href="#item3">Weather</a></li>
+              <li class="s11"><a href="#item3">About</a></li>
               </ul>
 </div>
             </div>        
@@ -42,41 +49,43 @@ class BookingForms extends React.Component {
       
                     
                 <div className="container">
-                <center>
-                    
+                
+                    <br />
                   <div class="row">
                     
                     <div class="input-field col s14">
-                        <select>
+                        <select name>
                             <option value="" browser-default>Choose your option</option>
                             <option value="1">Mumbai</option>
                             <option value="2">Kolkata</option>
                             <option value="3">Chennai</option>
                             <option value="4">Delhi</option>
                             <option value="5">Pune</option>
-                            <option value="6">Hydreabad</option>
-                            <option value="7">Ahmdebad</option>
+                            <option value="6">Hyderabad</option>
+                            <option value="7">Ahmedabad</option>
                             <option value="8">Chandigarh</option>
                             <option value="9">Srinagar</option>
                             <option value="10">Gangtok</option>
-                            <option value="11">Banglore</option>
+                            <option value="11">Bangalore</option>
                         </select>
                         <label>Select Source</label>
+                        
+                        
                     </div>
                     <div class="input-field col s14">
-                        <select>
-                            <option value="" browser-default>Choose your option</option>
+                        <select name>
+                            <option value="" >Choose your option</option>
                             <option value="1">Mumbai</option>
                             <option value="2">Kolkata</option>
                             <option value="3">Chennai</option>
                             <option value="4">Delhi</option>
                             <option value="5">Pune</option>
-                            <option value="6">Hydreabad</option>
-                            <option value="7">Ahmdebad</option>
+                            <option value="6">Hyderabad</option>
+                            <option value="7">Ahemdabad</option>
                             <option value="8">Chandigarh</option>
                             <option value="9">Srinagar</option>
                             <option value="10">Gangtok</option>
-                            <option value="11">Banglore</option>
+                            <option value="11">Bangalore</option>
                         </select>
                         <label>Select Destination</label>
                         
@@ -94,10 +103,12 @@ class BookingForms extends React.Component {
               </div>
         
                </div>
-               <button type="button" class="btn1">Book</button>
-
-              </center>
+               <div className="center">
+                    <a class="waves-effect waves-light btn btn1">Book</a>
+               </div>
+               
                 </div>
+                <br /><br />
                 </section>
             </div>
 
